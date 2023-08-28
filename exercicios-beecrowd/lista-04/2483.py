@@ -1,0 +1,6 @@
+padrao_buscado = input()
+linha_lida = input()
+ocorrencia_padrao_buscado = linha_lida.count(padrao_buscado)
+ocorrencias = linha_lida.lower().count(padrao_buscado.lower())
+print(ocorrencia_padrao_buscado)
+print(ocorrencias)
