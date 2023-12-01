@@ -7,6 +7,9 @@ resultado = quadrado(15)
 print(resultado)  # Saída: 225
 
 
+# Lista de números de entrada
+numeros = [1, 2, 3, 4, 5]
+
 
 # Usando map() com uma função lambda para elevar ao quadrado cada número
 quadrados = map(lambda x: x ** 2, numeros)
@@ -24,6 +27,11 @@ tabela_de_dados = [
   {'id': 4, 'valor': 20},
   {'id': 5, 'valor': 15},
 ]
+
+
+
+
+
 
 # Filtrar resultados da nossa lista cujo valor é menor que 15
 resultado = list(filter(lambda x: x['valor'] < 15, tabela_de_dados))
